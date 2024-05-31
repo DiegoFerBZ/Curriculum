@@ -179,7 +179,7 @@ div.contban {
 .icons-box {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 5px; 
+  gap: 5px;
   max-width: 60%;
   margin-bottom: 3%;
 }
@@ -222,7 +222,12 @@ h2.destit {
 
 .card-proyecto {
   display: block;
-  background: #fff;
+  background: rgb(5, 1, 61);
+  background: linear-gradient(
+    190deg,
+    rgba(5, 1, 61, 1) 0%,
+    rgba(9, 9, 121, 1) 53%
+  );
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 400px;
@@ -241,13 +246,13 @@ h2.destit {
 .card-proyecto p {
   font-size: 18px;
   margin: 0 0 10px;
-  color: #3498db;
+  color: #ffffff;
   font-weight: bold;
 }
 
 .card-proyecto b {
   display: block;
-  color: #333;
+  color: #e2e2e2;
   margin: 10px 0;
 }
 
