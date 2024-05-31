@@ -222,12 +222,12 @@ h2.destit {
 
 .card-proyecto {
   display: block;
-  background: rgb(5, 1, 61);
-  background: linear-gradient(
-    190deg,
-    rgba(5, 1, 61, 1) 0%,
-    rgba(9, 9, 121, 1) 53%
+  background-image: radial-gradient(
+    circle 382px at 50% 50.2%,
+    rgba(73, 76, 212, 1) 0.1%,
+    rgba(3, 1, 50, 1) 100.2%
   );
+
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 400px;
