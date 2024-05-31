@@ -24,7 +24,11 @@ header {
 
 #ptitle {
   border-top: 5px solid #a30810;
-  background: linear-gradient(110deg, #050468d8 60%, #0b1969d3 60%);
+  background-image: radial-gradient(
+    circle 975px at 2.6% 48.3%,
+    rgba(0, 8, 120, 1) 0%,
+    rgba(95, 184, 224, 1) 99.7%
+  );
   color: white;
   text-align: center;
   width: 350px;
@@ -43,7 +47,11 @@ div.tit {
   display: flex;
   margin: 20px auto 0px;
   border-radius: 20px;
-  background: linear-gradient(110deg, #050468d8 60%, #0b1969d3 60%);
+  background-image: radial-gradient(
+    circle 975px at 2.6% 48.3%,
+    rgba(0, 8, 120, 1) 0%,
+    rgba(95, 184, 224, 1) 99.7%
+  );
   padding: 10px;
   text-align: center;
 }
@@ -139,7 +147,11 @@ button.desplegar {
   display: block;
   margin: 20px auto 0px;
   border-radius: 20px;
-  background: linear-gradient(110deg, #050468d8 60%, #0b1969d3 60%);
+  background-image: radial-gradient(
+    circle 975px at 2.6% 48.3%,
+    rgba(0, 8, 120, 1) 0%,
+    rgba(95, 184, 224, 1) 99.7%
+  );
   padding: 10px;
 }
 
@@ -223,9 +235,9 @@ h2.destit {
 .card-proyecto {
   display: block;
   background-image: radial-gradient(
-    circle 382px at 50% 50.2%,
-    rgba(73, 76, 212, 1) 0.1%,
-    rgba(3, 1, 50, 1) 100.2%
+    circle 975px at 2.6% 48.3%,
+    rgba(0, 8, 120, 1) 0%,
+    rgba(95, 184, 224, 1) 99.7%
   );
 
   border-radius: 8px;

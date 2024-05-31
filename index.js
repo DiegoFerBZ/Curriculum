@@ -23,8 +23,8 @@ function chan_color() { //Con esta funcion se cambian los colores de los titulos
   var btncol = document.getElementsByClassName("desplegar");
   var nortit = document.getElementsByClassName("tit");
   if (cont % 2 == 0) {
-    for (var n = 0; n < nortit.length; n++) { nortit[n].setAttribute("style", "background: linear-gradient(110deg, #050468d8 60%, #0b1969d3 60%);")} //Fondo azul
-    for (var i = 0; i < btncol.length; i++) { btncol[i].setAttribute("style", "background: linear-gradient(110deg, #050468d8 60%, #0b1969d3 60%);")}
+    for (var n = 0; n < nortit.length; n++) { nortit[n].setAttribute("style", "background-image: radial-gradient(circle 975px at 2.6% 48.3%,rgba(0, 8, 120, 1) 0%,rgba(95, 184, 224, 1) 99.7%);")} //Fondo azul
+    for (var i = 0; i < btncol.length; i++) { btncol[i].setAttribute("style", "background-image: radial-gradient(circle 975px at 2.6% 48.3%,rgba(0, 8, 120, 1) 0%,rgba(95, 184, 224, 1) 99.7%);")}
   } else {
     for (var n = 0; n < nortit.length; n++) { nortit[n].setAttribute("style", "background: linear-gradient(110deg, #d84805d8 60%, #e24608c5 60%);")} //Fondo rojo
     for (var i = 0; i < btncol.length; i++) { btncol[i].setAttribute("style", "background: linear-gradient(110deg, #d84805d8 60%, #e24608c5 60%);") }
